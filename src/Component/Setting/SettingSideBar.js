@@ -6,7 +6,6 @@ import { FaAngleLeft  } from 'react-icons/fa';
 
 const SettingbarContainer = styled.div`
 display: flex;
-  width: 200px;
   top: 0;
   right: 0;
 `;

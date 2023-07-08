@@ -45,7 +45,7 @@ const Sidebar = styled.div`
         background-color: orange;
         border-radius: 50%;
         padding: 5px;
-        margin-top: 180px;
+        margin-top: 175px;
     padding-right: 6px;
       }
     }

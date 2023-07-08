@@ -1,44 +1,51 @@
 export const fields = [
   { 
-    label: 
-    "First Name", 
+    label: "First Name", 
     name: "firstName", 
-    type: "text" 
+    type: "text" ,
+    placeholder: "Ileana"
 },
   { 
     label: "Last Name", 
     name: "lastName", 
-    type: "text"
+    type: "text",
+    placeholder:"Bozorgi"
  },
   { 
     label: "Email",
    name: "email", 
-   type: "email" 
+   type: "email",
+   placeholder:"Ileanabozorgi.business@gmail.com" 
 },
   { 
     label: "Mobile Number",
      name: "mobileNo",
-      type: "text"
+      type: "text",
+      placeholder:"9876543210"
      },
   { 
     label: "Password", 
     name: "password",
-     type: "password"
+     type: "password",
+     placeholder:"abc123"
      },
   { 
     label: "College Start Date",
      name: "collegeStartDate", 
-     type: "text" 
+     type: "text" ,
+     placeholder:"01/01/1990"
     },
   {
      label: "College End Date", 
      name: "collegeEndDate", 
-     type: "text" 
+     type: "text" ,
+     placeholder:"01/01/1993"
     },
   {
      label: "Resume",
       name: "resume",
-       type: "text"
+       type: "text",
+       placeholder:"Upload File"
      },
 ];
 

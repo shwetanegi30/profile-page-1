@@ -5,7 +5,7 @@ import {
 } from "react-icons/ri";
 
 const Headerbar = styled.div`
-  width:100%;
+  width:93%;
   display: flex;
   justify-content: flex-end;
   align-items: center;
