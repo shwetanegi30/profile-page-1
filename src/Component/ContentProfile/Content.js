@@ -52,7 +52,7 @@ const Label = styled.label`
 `;
 
 const Input = styled.input`
-  width: 75%;
+  width: 73%;
   border-radius: 4px;
     padding-top: 6px;
     padding-bottom: 6px;
@@ -93,7 +93,7 @@ const Button = styled.button`
 `;
 
 
-function content() {
+function Contentbox() {
   return (
     <Content>
       <ProfileContainer>
@@ -141,4 +141,7 @@ function content() {
   );
 }
 
-export default content;
+export default Contentbox;
+
+
+
