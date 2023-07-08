@@ -1,29 +1,8 @@
-// import React from 'react'
-// import Sidebar from './Component/SideNavBar'
-// import Settingbar from './Component/SettingSideBar'
-// import Header from './Component/Header'
-// import Content from './Component/Content'
-
-// function App() {
-//   return (
-//     <div>
-//       <Sidebar />
-//       <Settingbar />
-//       <Header />
-//       <Content />
-//     </div>
-//   )
-// }
-
-// export default App
-
-
-
 import React from 'react';
 import Sidebar from './Component/SideNavBar'
-import Settingbar from './Component/SettingSideBar'
+import Settingbar from './Component/Setting/SettingSideBar'
 import Header from './Component/Header'
-import Content from './Component/Content'
+import Content from './Component/ContentProfile/Content'
 import styled from 'styled-components';
 
 

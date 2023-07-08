@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import contentList from './contentList';
 
 const Content = styled.div`
   flex: 1;
@@ -53,16 +54,7 @@ const Button = styled.button`
   margin-right: 10px;
 `;
 
-const fields = [
-  { label: 'First Name', name: 'firstName', type: 'text' },
-  { label: 'Last Name', name: 'lastName', type: 'text' },
-  { label: 'Email', name: 'email', type: 'email' },
-  { label: 'Mobile Number', name: 'mobileNo', type: 'text' },
-  { label: 'Password', name: 'password', type: 'password' },
-  { label: 'College Start Date', name: 'collegeStartDate', type: 'text' },
-  { label: 'College End Date', name: 'collegeEndDate', type: 'text' },
-  { label: 'Resume', name: 'resume', type: 'file' },
-];
+
 
 function content() {
   return (
@@ -73,7 +65,7 @@ function content() {
       </ProfileContainer>
 
       <Form>
-        {fields.map((field) => (
+        {contentList.map((field) => (
           <FormGroup key={field.name}>
             <Label>{field.label}:</Label>
             <Input type={field.type} />
