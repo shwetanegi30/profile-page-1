@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import contentList from './contentList';
+import fields from './contentList';
 
 const Content = styled.div`
   flex: 1;
@@ -65,7 +65,7 @@ function content() {
       </ProfileContainer>
 
       <Form>
-        {contentList.map((field) => (
+        {fields.map((field) => (
           <FormGroup key={field.name}>
             <Label>{field.label}:</Label>
             <Input type={field.type} />

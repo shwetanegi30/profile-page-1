@@ -41,3 +41,6 @@ const fields = [
        type: "file"
      },
 ];
+
+
+export default fields
