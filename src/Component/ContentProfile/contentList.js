@@ -1,4 +1,4 @@
-const fields = [
+export const fields = [
   { 
     label: 
     "First Name", 
@@ -38,9 +38,52 @@ const fields = [
   {
      label: "Resume",
       name: "resume",
-       type: "file"
+       type: "text"
      },
 ];
 
-
 export default fields
+
+// export const company = [
+//   { 
+//     label: 
+//     "Company Name", 
+//     name: "", 
+//     type: "text" 
+// },
+//   { 
+//     label: "Website URL", 
+//     name: "", 
+//     type: "text"
+//  },
+//   { 
+//     label: "Email",
+//    name: "email", 
+//    type: "email" 
+// },
+//   { 
+//     label: "Mobile Number",
+//      name: "mobileNo",
+//       type: "text"
+//      },
+//   { 
+//     label: "Password", 
+//     name: "password",
+//      type: "password"
+//      },
+//   { 
+//     label: "Account Manger Name",
+//      name: "", 
+//      type: "text" 
+//     },
+//   {
+//      label: "Account Manger Function", 
+//      name: "", 
+//      type: "text" 
+//     },
+//   {
+//      label: "Industry",
+//       name: "",
+//        type: "file"
+//      },
+// ]
