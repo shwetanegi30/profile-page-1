@@ -37,7 +37,7 @@ const Sidebar = styled.div`
       }
 
       svg {
-        font-size: 30px;
+        font-size: 27px;
         color: red;
       }
 

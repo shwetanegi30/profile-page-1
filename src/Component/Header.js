@@ -13,14 +13,14 @@ const Headerbar = styled.div`
   padding: 15px 20px 0 20px;
 
   img {
-      width:  36px;
-    height: 36px;
+      width:  33px;
+    height: 33px;
     border-radius: 50%;
     object-fit: cover;
     }
   
   svg{
-    font-size: 30px;
+    font-size: 32px;
     background-color: #f0f0f0;
     border-radius: 50%;
     padding: 5px;
