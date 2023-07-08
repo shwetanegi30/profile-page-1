@@ -20,7 +20,7 @@ const Sidebar = styled.div`
     height: 40px;
     border-radius: 50%;
     object-fit: cover;
-    margin-bottom: 45px;
+    margin-bottom: 47px;
     margin-top: 10px;
     }
 
@@ -32,7 +32,8 @@ const Sidebar = styled.div`
       li {
         display: flex;
         align-items: center;
-        margin-bottom: 40px;
+        padding-left: 5px;
+    padding-bottom: 41px
       }
 
       svg {
@@ -44,7 +45,7 @@ const Sidebar = styled.div`
         background-color: orange;
         border-radius: 50%;
         padding: 5px;
-        margin-top: 200px;
+        margin-top: 180px;
     padding-right: 6px;
       }
     }
@@ -55,7 +56,7 @@ function SideNavBar() {
   return (
     <Sidebar>
       <div>
-        <img src="https://media.licdn.com/dms/image/C5603AQEWw0FH_H6RCw/profile-displayphoto-shrink_800_800/0/1517580260726?e=2147483647&v=beta&t=aNMOb_GobO695V_7He-GNXay-K6apDPjEuWWg3sJSIg" alt="logo" />
+        <img src="https://cdn5.vectorstock.com/i/1000x1000/66/59/gold-pd-letter-logo-design-pd-logo-design-pd-logo-vector-37396659.jpg" alt="logo" />
 
         <ul>
           <li>

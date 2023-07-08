@@ -4,6 +4,7 @@ import Settingbar from './Component/Setting/SettingSideBar'
 import Header from './Component/Header'
 import Content from './Component/ContentProfile/Content'
 import styled from 'styled-components';
+import './App.css'
 
 
 

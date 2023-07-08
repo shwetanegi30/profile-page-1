@@ -15,7 +15,8 @@ const SettingbarContent = styled.div`
   padding: 20px;
 
   .main{
-    margin-bottom: 60px
+    margin-bottom: 51px;
+    padding-top: 11px;
   }
 
   .heading{
@@ -31,7 +32,7 @@ const SettingItem = styled.div`
   align-items: center;
     margin-left: 20px;
     font-size: 18px;
-    margin-bottom:39px;  
+    margin-bottom:46px;  
 `;
 
 const IconWrapper = styled.span`
