@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import {
   SettingbarContainer,
   SettingbarContent,
@@ -12,6 +12,12 @@ import settingsData from "./settingbar";
 import { Arrow } from "../SvgIcons/svg";
 
 function SettingSideBar() {
+  const [activeItem, setActiveItem] = useState(null);
+
+  const handleItemClick = (id) => {
+    setActiveItem(id);
+  };
+
   return (
     <SettingbarContainer>
       <SettingbarContent>
@@ -20,9 +26,18 @@ function SettingSideBar() {
           <span className="heading"> settings </span>
         </Main>
         {settingsData.map((setting) => (
-          <SettingItem key={setting.id}>
+          <SettingItem
+            key={setting.id}
+            onClick={() => handleItemClick(setting.id)}
+          >
             <IconWrapper>{setting.icon}</IconWrapper>
-            <SettingName>{setting.title} </SettingName>
+            <SettingName
+              style={{
+                color: activeItem === setting.id ? "black" : "null",
+              }}
+            >
+              {setting.title}{" "}
+            </SettingName>
           </SettingItem>
         ))}
       </SettingbarContent>
