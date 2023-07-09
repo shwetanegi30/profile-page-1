@@ -111,28 +111,21 @@ import {
   ButtonContainer,
   Button,
 } from "./ContenStyled";
-// import { useLocation } from "react-router-dom";
-import queryString from 'query-string';
+import queryString from "query-string";
 import { fields, company } from "./contentList";
 
 function Contentbox({ queryStringParams }) {
-
   useEffect(() => {
     if (queryStringParams && queryStringParams.company) {
-      // Retrieve the company data from the query string parameters
       const companyData = queryString.parse(queryStringParams.company);
       console.log(companyData);
-      // Do something with the company data
 
-      // Update the query string with modified company data
-      const updatedCompanyData = { ...companyData, newProperty: 'Some value' };
+      const updatedCompanyData = { ...companyData, newProperty: "Some value" };
       const updatedQueryString = queryString.stringify({
         ...queryStringParams,
-        company: queryString.stringify(updatedCompanyData)
+        company: queryString.stringify(updatedCompanyData),
       });
-      // Perform any necessary action with the updated query string
     }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [queryStringParams]);
 
   return (
