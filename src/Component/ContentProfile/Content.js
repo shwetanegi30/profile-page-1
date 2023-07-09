@@ -160,10 +160,10 @@ function Contentbox({ queryStringParams }) {
         {fields.slice(2, 5).map((field) => (
           <FormGroup key={field.name} className="form">
             <Label>{field.label}</Label>
-            <InputField>
+           <InputField>
               <Input type={field.type} placeholder={field.placeholder} />
               {field.icon}
-            </InputField>
+              </InputField>
           </FormGroup>
         ))}
         <FlexContainer>
@@ -179,13 +179,13 @@ function Contentbox({ queryStringParams }) {
           </FormGroup>
           <FormGroup>
             <Label className="label">{fields[6].label}:</Label>
-            <div className="input">
+            <Calender className="input">
               <Input
                 type={fields[6].type}
                 placeholder={fields[6].placeholder}
               />
               {fields[6].icon}
-            </div>
+            </Calender>
           </FormGroup>
         </FlexContainer>
         <FormGroup>

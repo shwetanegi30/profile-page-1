@@ -144,7 +144,7 @@ export const Setting = (props) => (
     width={81}
     height={81}
     fill="none"
-    style={{ transform: "scale(0.6)", marginTop: "226px" }}
+    style={{ transform: "scale(0.6)", marginTop: "230px" }}
     {...props}
   >
     <circle cx={40.5} cy={40.5} r={40.5} fill="#FF7008" />
@@ -335,7 +335,7 @@ export const Checkbox = (props) => (
     width={37}
     height={36}
     fill="none"
-    style={{ transform: "scale(0.5)" }}
+    style={{ transform: "scale(0.5)",marginLeft: "-36px",marginTop: "-2px" }}
     {...props}
   >
     <rect
@@ -359,7 +359,7 @@ export const Eye = (props) => (
     width={24}
     height={24}
     fill="none"
-    style={{ transform: "scale(0.8)" }}
+    style={{ transform: "scale(0.8)",marginLeft: "-36px",marginTop: "-2px" }}
     {...props}
   >
     <circle cx={12} cy={12} r={3} stroke="#33363F" strokeWidth={2} />
@@ -377,7 +377,7 @@ export const Calender = (props) => (
     width={49}
     height={48}
     fill="none"
-    style={{ transform: "scale(0.8)" }}
+    style={{ transform: "scale(0.8)",marginLeft: "-42px" }}
     {...props}
   >
     <g clipPath="url(#a)">
@@ -415,7 +415,7 @@ export const Folder = (props) => (
     width={24}
     height={24}
     fill="none"
-    style={{ transform: "scale(0.8)" }}
+    style={{ transform: "scale(0.8)",marginLeft: "-36px" }}
     {...props}
   >
     <path

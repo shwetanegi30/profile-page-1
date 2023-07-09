@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Content = styled.div`
   flex: 1;
-  padding-left: 110px;
+  padding-left: 105px;
 `;
 
 export const ProfileContainer = styled.div`
@@ -27,7 +27,7 @@ export const ProfileName = styled.h2`
 export const Form = styled.form`
   display: flex;
   flex-direction: column;
-  margin-top: 35px;
+  margin-top: 29px;
 `;
 
 export const FlexContainer = styled.div`
@@ -56,9 +56,7 @@ export const Label = styled.label`
 export const Input = styled.input`
   width: 73%;
   border-radius: 4px;
-  padding-top: 6px;
-  padding-bottom: 6px;
-  padding-left: 19px;
+  padding:5px 0 5px 19px;
   border: 2px solid #858585;
   opacity: 0.6;
 
@@ -94,7 +92,7 @@ export const Button = styled.button`
 export const InputField = styled.div`
   position: relative;
 
-  svg {
+  ${'' /* svg {
     position: absolute;
     bottom: 11px;
     right: 285px;
@@ -102,7 +100,7 @@ export const InputField = styled.div`
     top: 5px;
     font-size: 19px;
     border-radius: 4px;
-  }
+  } */}
 `;
 
 export const Calender = styled.div`
