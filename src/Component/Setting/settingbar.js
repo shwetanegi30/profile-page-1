@@ -1,5 +1,4 @@
 import {
-  Arrow,
   Pencile,
   SmallNotification,
   Security,

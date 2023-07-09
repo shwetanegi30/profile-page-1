@@ -2,13 +2,13 @@ import styled from "styled-components";
 
 export const Content = styled.div`
   flex: 1;
-  padding-left: 105px;
+  padding: 0 12%;
 `;
 
 export const ProfileContainer = styled.div`
   display: flex;
   align-items: center;
-  gap: 57%;
+  justify-content: space-between;
 `;
 
 export const ProfileImage = styled.img`
@@ -27,19 +27,19 @@ export const ProfileName = styled.h2`
 export const Form = styled.form`
   display: flex;
   flex-direction: column;
-  margin-top: 29px;
+  margin-top: 35px;
 `;
 
 export const FlexContainer = styled.div`
   display: flex;
-  gap: 38%;
+  gap: 16px;
 `;
 
 export const FormGroup = styled.div`
   display: flex;
   flex-direction: column;
   margin-bottom: 10px;
-
+  width: 100%;
   .form {
     height: 63px;
     width: 1091px;
@@ -54,9 +54,9 @@ export const Label = styled.label`
 `;
 
 export const Input = styled.input`
-  width: 73%;
+  width: 100%;
   border-radius: 4px;
-  padding:5px 0 5px 19px;
+  padding: 6px 30px 6px 20px;
   border: 2px solid #858585;
   opacity: 0.6;
 
@@ -91,18 +91,12 @@ export const Button = styled.button`
 
 export const InputField = styled.div`
   position: relative;
-
-  ${'' /* svg {
+  svg {
     position: absolute;
-    bottom: 11px;
-    right: 285px;
-    left: 773px;
-    top: 5px;
-    font-size: 19px;
-    border-radius: 4px;
-  } */}
+    right: 10px;
+    top: calc(50% - 12px);
+  }
 `;
 
-export const Calender = styled.div`
-  position: relative;
-`;
+
+export const Calender = styled(InputField)``;

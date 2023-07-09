@@ -144,7 +144,7 @@ export const Setting = (props) => (
     width={81}
     height={81}
     fill="none"
-    style={{ transform: "scale(0.6)", marginTop: "230px" }}
+    style={{ transform: "scale(0.6)", marginTop: "226px" }}
     {...props}
   >
     <circle cx={40.5} cy={40.5} r={40.5} fill="#FF7008" />
@@ -332,10 +332,10 @@ export const BellIcon = (props) => (
 export const Checkbox = (props) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={37}
-    height={36}
+    width={24}
+    height={24}
     fill="none"
-    style={{ transform: "scale(0.5)",marginLeft: "-36px",marginTop: "-2px" }}
+    viewBox="0 0 37 36"
     {...props}
   >
     <rect
@@ -359,7 +359,7 @@ export const Eye = (props) => (
     width={24}
     height={24}
     fill="none"
-    style={{ transform: "scale(0.8)",marginLeft: "-36px",marginTop: "-2px" }}
+    viewBox="0 0 24 24"
     {...props}
   >
     <circle cx={12} cy={12} r={3} stroke="#33363F" strokeWidth={2} />
@@ -374,10 +374,10 @@ export const Eye = (props) => (
 export const Calender = (props) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={49}
-    height={48}
+    width={24}
+    height={24}
     fill="none"
-    style={{ transform: "scale(0.8)",marginLeft: "-42px" }}
+    viewBox="0 0 49 48"
     {...props}
   >
     <g clipPath="url(#a)">
@@ -415,7 +415,6 @@ export const Folder = (props) => (
     width={24}
     height={24}
     fill="none"
-    style={{ transform: "scale(0.8)",marginLeft: "-36px" }}
     {...props}
   >
     <path

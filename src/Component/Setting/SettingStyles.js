@@ -25,7 +25,7 @@ export const SettingItem = styled.div`
   margin-bottom: 40px;
 `;
 export const SettingName = styled.h4`
-  color: #858585;
+  color: ${(props) => (props.isSelected ? "#000" : "#858585")};
   font-weight: 500;
   font-size: 18px;
   margin-top: 11px;

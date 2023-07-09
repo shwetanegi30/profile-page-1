@@ -12,11 +12,7 @@ import settingsData from "./settingbar";
 import { Arrow } from "../SvgIcons/svg";
 
 function SettingSideBar() {
-  const [activeItem, setActiveItem] = useState(null);
-
-  const handleItemClick = (id) => {
-    setActiveItem(id);
-  };
+  const [activeItem, setActiveItem] = useState(1);
 
   return (
     <SettingbarContainer>
@@ -28,15 +24,11 @@ function SettingSideBar() {
         {settingsData.map((setting) => (
           <SettingItem
             key={setting.id}
-            onClick={() => handleItemClick(setting.id)}
+            onClick={() => {}} // todo: add when required
           >
             <IconWrapper>{setting.icon}</IconWrapper>
-            <SettingName
-              style={{
-                color: activeItem === setting.id ? "black" : "null",
-              }}
-            >
-              {setting.title}{" "}
+            <SettingName isSelected={activeItem === setting.id}>
+              {setting.title}
             </SettingName>
           </SettingItem>
         ))}
