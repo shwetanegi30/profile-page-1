@@ -1,12 +1,10 @@
-import React from 'react';
-import Sidebar from './Component/SideNavBar'
-import Settingbar from './Component/Setting/SettingSideBar'
-import Header from './Component/Header'
-import Content from './Component/ContentProfile/Content'
-import styled from 'styled-components';
-import './App.css'
-
-
+import React from "react";
+import Sidebar from "./Component/SideBar/SideNavBar";
+import Settingbar from "./Component/Setting/SettingSideBar";
+import Header from "./Component/Header/Header";
+import Content from "./Component/ContentProfile/Content";
+import styled from "styled-components";
+import "./App.css";
 
 const Container = styled.div`
   display: flex;

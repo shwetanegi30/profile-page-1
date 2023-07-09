@@ -1,36 +1,38 @@
 import {
-  FaQuestionCircle,
-} from "react-icons/fa";
-import { RiSettings2Line, RiNotification2Line } from 'react-icons/ri';
-import { AiOutlineLock } from 'react-icons/ai';
-import { TiPencil } from 'react-icons/ti';
+  Arrow,
+  Pencile,
+  SmallNotification,
+  Security,
+  SmallSetting,
+  Query,
+} from "../SvgIcons/svg";
 
 const settingsData = [
   {
     id: 1,
     title: "Edit Profile",
-    icon: <TiPencil />,
+    icon: <Pencile />,
   },
   {
     id: 2,
     title: "Notification",
-    icon: <RiNotification2Line />,
+    icon: <SmallNotification />,
   },
   {
     id: 3,
     title: "Security",
-    icon: <AiOutlineLock  />,
+    icon: <Security />,
   },
-  { 
-    id: 4, 
-    title: "Appearance", 
-    icon: <RiSettings2Line /> 
+  {
+    id: 4,
+    title: "Appearance",
+    icon: <SmallSetting />,
   },
-  { 
+  {
     id: 5,
-     title: "Help", 
-     icon: <FaQuestionCircle /> 
-    },
+    title: "Help",
+    icon: <Query />,
+  },
 ];
 
 export default settingsData;
