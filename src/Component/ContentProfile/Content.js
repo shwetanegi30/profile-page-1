@@ -125,9 +125,10 @@ function Contentbox({ queryStringParams }) {
         ...queryStringParams,
         company: queryString.stringify(updatedCompanyData),
       });
+
+      console.log(updatedQueryString);
     }
   }, [queryStringParams]);
-
   return (
     <Content>
       <ProfileContainer>
@@ -160,10 +161,10 @@ function Contentbox({ queryStringParams }) {
         {fields.slice(2, 5).map((field) => (
           <FormGroup key={field.name} className="form">
             <Label>{field.label}</Label>
-           <InputField>
+            <InputField>
               <Input type={field.type} placeholder={field.placeholder} />
               {field.icon}
-              </InputField>
+            </InputField>
           </FormGroup>
         ))}
         <FlexContainer>
